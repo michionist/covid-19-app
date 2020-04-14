@@ -6,9 +6,6 @@ require('dotenv').config({
 // XML Converter
 const o2x = require('object-to-xml');
 
-// import our data
-const data = require('./data');
-
 // import app models file
 const impactEstimator = require('./src/estimator');
 

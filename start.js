@@ -34,8 +34,6 @@ app.post('/api/v1/on-covid-19/:resDataType', function (req, res) {
         res.send(typeof impactEstimator(data));
     }
 
-    console.log(data);
-
     res.json(
         impactEstimator(data)
     );

@@ -105,3 +105,6 @@ dist
 
 # test data file
 data.js
+
+# Ignore .env file
+.env
